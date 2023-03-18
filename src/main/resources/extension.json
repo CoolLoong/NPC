@@ -1,0 +1,14 @@
+{
+  "entrypoint": "${mainPackage}.${name.toLowerCase()}.NPCMain",
+  "name": "${name}",
+  "version": "${version}",
+  "meta": {
+    "github": {
+      "release": {
+        "account": "coolloong",
+        "repo": "NPC",
+        "release": "${releaseVersion}"
+      }
+    }
+  }
+}

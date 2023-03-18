@@ -1,0 +1,16 @@
+[versions]
+# minestom
+minestom = "067227421f"
+# Gradle plugins
+shadowJar = "8.1.0"
+
+[libraries]
+minestom = { group = "com.github.Minestom", name = "Minestom", version.ref = "minestom" }
+lambok = { group = "org.projectlombok", name = "lombok", version = "1.18.26" }
+
+[bundles]
+# dependency bundles
+# nil
+
+[plugins]
+shadowJar = { id = "com.github.johnrengelman.shadow", version.ref = "shadowJar" }
